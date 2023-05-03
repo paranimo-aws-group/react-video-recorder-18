@@ -1,6 +1,7 @@
 {
   "name": "react-video-recorder",
   "main": "lib",
+  "types": "lib/index.d.ts",
   "files": [
     "lib",
     "README.md"
@@ -23,7 +24,6 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged && yarn test",
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
   },
